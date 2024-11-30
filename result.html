@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeakScan Results</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/result.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <style>
+        .rounded-buttons .btn {
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="index.html" class="text-dark font-weight-bold"><img src="assets/img/logo mm.png" style="height: 100%;"></a>
+            </div>
+            <nav class="nav-links d-none d-md-block">
+                <ul class="list-unstyled d-flex mb-0">
+                    <li class="mr-3"><a href="index.html" style="font-size: 18px;">Home</a></li>
+                    <li class="mr-3"><a href="#features" style="font-size: 18px;">Features</a></li>
+                    <li class="mr-3"><a href="#about" style="font-size: 18px;">About</a></li>
+                    <li><a href="#contact" style="font-size: 18px;">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu d-md-none" id="hamburger-menu" role="button" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="result-section py-5" style="padding-top: 7rem !important;">
+        <div class="container">
+            <h1 class="text-center" style="color:white;">LeakScan Results</h1>
+            <p class="text-center" style="color:white;">Results for <span id="userQuery"></span></p>
+            
+            <div class="donc"  style="color:white;">
+                Download your breach report in json format
+                <br>
+                <br>
+                <button class="downb" style="border-radius: 50px;"><a href="data.json" download><b>Download</b></a></button>
+            </div>
+
+            <!-- Results Section -->
+            <div id="rhythmtomResults"></div>
+            <div id="mailLeaksResults"></div>
+            <div id="holeheResults"></div>
+        </div>
+    </section>
+
+    <script>
+        // Fetch the email from the URL query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryEmail = urlParams.get('email');
+        if (!queryEmail) {
+            document.getElementById('userQuery').textContent = 'No email provided';
+        } else {
+            document.getElementById('userQuery').textContent = queryEmail;
+        }
+
+        // Fetch JSON and process the data
+        const rhythmtomResults = document.getElementById('rhythmtomResults');
+        const mailLeaksResults = document.getElementById('mailLeaksResults');
+        const holeheResults = document.getElementById('holeheResults');
+
+        fetch('/email-setup/Combined_folder/final_output.json') // Replace with your actual file path
+            .then(response => response.json())
+            .then(data => {
+                // Process rhythmtom data
+                const rhythmtomData = data[`${queryEmail}.json`];
+                if (rhythmtomData && rhythmtomData.success) {
+                    rhythmtomResults.innerHTML = `
+                        <div class="gendiv">    
+                        <center><h4 style="color:white;">General Information</h4>
+                        <p style="color:white;"><strong>Total Found:</strong> ${rhythmtomData.found}</p></center>
+                        <div class="row" style="margin-top: 3rem;">
+                            ${rhythmtomData.result.map(entry => `
+                                <div class="col-md-6">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">${entry.sources}</h5>
+                                            <p><strong>Has Password:</strong> ${entry.hash_password ? 'Yes' : 'No'}</p>
+                                            ${entry.password ? `<p><strong>Password:</strong> ${entry.password}</p>` : ''}
+                                            ${entry.sha1 ? `<p><strong>SHA1:</strong> ${entry.sha1}</p>` : ''}
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                        </div>
+                    `;
+                } else {
+                    rhythmtomResults.innerHTML = '<p style="color: white; text-align: center;">No data found in json</p>';
+                }
+
+                // Process mailleaks.json
+                const mailLeaksData = data["mailleaks.json"];
+                if (mailLeaksData) {
+                    // Check if the email is present in the mailleaks data
+                    if (mailLeaksData.email === queryEmail) { // Ensure this condition matches your data structure
+                        mailLeaksResults.innerHTML = `
+                            <div class="leakdiv">
+                            <center>
+                            <h4 style="color:white;">Mail Leaks</h4>
+                            <p style="color:white;"><strong>Total Breaches:</strong> ${mailLeaksData.count}</p></center>
+                            <div class="row" style="margin-top: 3rem;">
+                                ${mailLeaksData.breaches.map(breach => `
+                                    <div class="col-md-6">
+                                        <div class="card mb-3">
+                                            <div class="card-body">
+                                                <h5 class="card-title">${breach.name}</h5>
+                                                <p><strong>Date:</strong> ${breach.breachDate}</p>
+                                                <p><strong>Compromised Data:</strong> ${breach.compromised}</p>
+                                                <p style="text-align: justify">${breach.description}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            </div>
+                        `;
+                    } else {
+                        mailLeaksResults.innerHTML = '<p style="color: white; text-align: center;">No mail leaks found for this email.</p>';
+                    }
+                } else {
+                    mailLeaksResults.innerHTML = '<p style="color: white; text-align: center;">No data found in mailleaks.json</p>';
+                }
+
+
+                // Process holehe_*.csv data
+                const holeheData = data[`holehe_1732186268_${queryEmail}_results.csv`];
+                if (holeheData) {
+                    holeheResults.innerHTML = `
+                        <div class="holehediv">
+                        <center><h4 style="color:white;">Holehe Results</h4></center>
+                        <table class="table"  style="margin-top: 3rem;">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Domain</th>
+                                    <th>Method</th>
+                                    <th>Exists</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${holeheData.map(entry => `
+                                    <tr>
+                                        <td>${entry.name}</td>
+                                        <td>${entry.domain}</td>
+                                        <td>${entry.method}</td>
+                                        <td>${entry.exists}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                        </div>
+                    `;
+                } else {
+                    holeheResults.innerHTML = '<p style="color: white; text-align: center;">No data found in holehe results.</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

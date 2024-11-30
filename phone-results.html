@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeakScan Results</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/result.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <style>
+        .rounded-buttons .btn {
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="index.html" class="text-dark font-weight-bold"><img src="assets/img/logo mm.png" style="height: 100%;"></a>
+            </div>
+            <nav class="nav-links d-none d-md-block">
+                <ul class="list-unstyled d-flex mb-0">
+                    <li class="mr-3"><a href="index.html" style="font-size: 18px;">Home</a></li>
+                    <li class="mr-3"><a href="#features" style="font-size: 18px;">Features</a></li>
+                    <li class="mr-3"><a href="#about" style="font-size: 18px;">About</a></li>
+                    <li><a href="#contact" style="font-size: 18px;">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu d-md-none" id="hamburger-menu" role="button" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="result-section py-5" style="padding-top: 7rem !important;">
+        <div class="container">
+            <h1 class="text-center" style="color:white;">LeakScan Results</h1>
+            <p class="text-center" style="color:white;">Results for <span id="userQuery"></span></p>
+            
+            
+
+            <center>
+                <button id="fetchData" class="downb" style="border-radius: 50px; color: white;">Fetch Phone Data</button>
+            </center>
+        <div id="output" class="results"></div>
+        </div>
+    </section>
+
+    <script>
+    document.getElementById("fetchData").addEventListener("click", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const queryMob = urlParams.get('mobile');
+            const mob = `phoninfo-setup/${queryMob}.json`;
+            const output = document.getElementById("output");
+
+            fetch(mob)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    displayData(data);
+                })
+                .catch(error => {
+                    console.error("Error fetching the JSON file:", error);
+                    output.innerHTML = `<p style="color: white; text-align: center; padding-top: 2rem;">Failed to fetch data for this mobile number ${queryMob}.</p>`;
+                });
+                function displayData(data) {
+                const output = document.getElementById("output");
+                output.innerHTML = `
+                    <div class="donc"  style="color:white;">
+                        Download your breach report in json format
+                        <br>
+                        <br>
+                        <button class="downb" style="border-radius: 50px;"><a href="${queryMob}.json" download><b>Download</b></a></button>
+                    </div>
+
+                    <h3 style="color: white;">Phone Number: ${data.phone_number}</h3>
+                    <h4 style="color: white;">Phoneinfoga Results:</h4>
+                    <table class="table table-bordered" style="table-layout: fixed; width: 100%;">
+                        <tbody>
+                            <tr>
+                                <th style="width: 20%; word-wrap: break-word;"><strong>General:</strong></th>
+                                <td style="word-wrap: break-word; max-width: 80%;"> 
+                                    ${data.tools_results.phoneinfoga.General.join(", ")}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="width: 20%; word-wrap: break-word;"><strong>Social Media:</strong></th>
+                                <td style="word-wrap: break-word; max-width: 80%;">
+                                    <ul style="list-style-type: none; padding-left: 0; margin: 0;">
+                                        ${data.tools_results.phoneinfoga["Social media"]
+                                            .map(
+                                                url => `
+                                            <li style="overflow-wrap: break-word; word-break: break-all;">
+                                                <a href="${url}" target="_blank" style="color: black; text-decoration: none;">${url}</a>
+                                            </li>`
+                                            )
+                                            .join("")}
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="width: 20%; word-wrap: break-word;"><strong>Numverify Details:</strong></th>
+                                <td style="word-wrap: break-word; max-width: 80%;">
+                                    ${data.tools_results.phoneinfoga.numverify.join("<br>")}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="width: 20%; word-wrap: break-word;"><strong>Phunter Details:</strong></th>
+                                <td style="word-wrap: break-word; max-width: 80%;">
+                                    ${data.tools_results.phunter.General.join("<br>")}
+                                </td>
+                            </tr>
+                        </tbody>                        
+                    </table>
+
+                `;
+            }
+        
+        });
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

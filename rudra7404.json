@@ -1,0 +1,1355 @@
+{
+    "rudra7404_11_10_2024_blackbird.csv": [
+        {
+            "name": "Bandlab",
+            "url": "https://www.bandlab.com/api/v1.3/users/rudra7404"
+        },
+        {
+            "name": "Chess.com",
+            "url": "https://api.chess.com/pub/player/rudra7404"
+        },
+        {
+            "name": "freelancer",
+            "url": "https://www.freelancer.com/u/rudra7404"
+        },
+        {
+            "name": "giters",
+            "url": "https://giters.com/rudra7404"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/rudra7404"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://www.picuki.com/profile/rudra7404"
+        },
+        {
+            "name": "kaggle",
+            "url": "https://www.kaggle.com/rudra7404"
+        },
+        {
+            "name": "MANYVIDS",
+            "url": "https://www.manyvids.com/bff/search/results?keywords=rudra7404"
+        },
+        {
+            "name": "Roblox",
+            "url": "https://auth.roblox.com/v1/usernames/validate?username=rudra7404&birthday=2019-12-31T23:00:00.000Z"
+        },
+        {
+            "name": "Snapchat",
+            "url": "https://www.snapchat.com/add/rudra7404"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://t.me/rudra7404"
+        },
+        {
+            "name": "Xbox Gamertag",
+            "url": "https://www.xboxgamertag.com/search/rudra7404"
+        },
+        {
+            "name": "YouTube User2",
+            "url": "https://www.youtube.com/@rudra7404"
+        }
+    ],
+    "report_rudra7404_simple.json": {
+        "GitHubGist": {
+            "site": {
+                "tags": [
+                    "coding",
+                    "sharing"
+                ],
+                "engine": "engineRedirect",
+                "urlMain": "https://gist.github.com",
+                "url": "https://gist.github.com/{username}",
+                "source": "GitHub",
+                "usernameUnclaimed": "noonewouldeverusethis7",
+                "usernameClaimed": "alex",
+                "alexaRank": 26,
+                "checkType": "response_url"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://gist.github.com",
+            "cookies": null,
+            "url_user": "https://gist.github.com/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "GitHubGist [GitHub]",
+                "url": "https://gist.github.com/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "coding",
+                    "sharing"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 26
+        },
+        "Facebook": {
+            "site": {
+                "regexCheck": "^[a-zA-Z0-9_\\.]{3,49}(?<!\\.com|\\.org|\\.net)$",
+                "checkType": "message",
+                "absenceStrs": [
+                    "EventProfilerImpl"
+                ],
+                "presenseStrs": [
+                    "userID"
+                ],
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",
+                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+                },
+                "alexaRank": 10,
+                "urlMain": "https://www.facebook.com/",
+                "url": "https://www.facebook.com/{username}",
+                "usernameClaimed": "blue",
+                "usernameUnclaimed": "noonewouldeverusethis7",
+                "tags": [
+                    "networking"
+                ]
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.facebook.com/",
+            "cookies": null,
+            "url_user": "https://www.facebook.com/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Facebook",
+                "url": "https://www.facebook.com/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "networking"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 10
+        },
+        "GitHub": {
+            "site": {
+                "tags": [
+                    "coding"
+                ],
+                "regexCheck": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
+                "urlProbe": "https://api.github.com/users/{username}",
+                "checkType": "status_code",
+                "alexaRank": 83,
+                "urlMain": "https://www.github.com/",
+                "url": "https://github.com/{username}",
+                "usernameClaimed": "blue",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.github.com/",
+            "cookies": null,
+            "url_user": "https://github.com/rudra7404",
+            "ids_usernames": {},
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "GitHub",
+                "url": "https://github.com/rudra7404",
+                "status": "Claimed",
+                "ids": {
+                    "uid": "110459831",
+                    "image": "https://avatars.githubusercontent.com/u/110459831?v=4",
+                    "created_at": "2022-08-02T09:31:13Z",
+                    "follower_count": "0",
+                    "following_count": "0",
+                    "public_gists_count": "0",
+                    "public_repos_count": "1"
+                },
+                "tags": [
+                    "coding"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 83
+        },
+        "Telegram": {
+            "site": {
+                "tags": [
+                    "messaging"
+                ],
+                "regexCheck": "^[a-zA-Z][a-zA-Z0-9_]{4,}$",
+                "checkType": "message",
+                "absenceStrs": [
+                    "<meta name=\"robots\" content=\"noindex, nofollow\">",
+                    "<meta property=\"twitter:title\" content=\"Telegram: Contact"
+                ],
+                "alexaRank": 154,
+                "urlMain": "https://t.me/",
+                "url": "https://t.me/{username}",
+                "usernameClaimed": "BotFather",
+                "usernameUnclaimed": "noonewouldevereverusethis9"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://t.me/",
+            "cookies": null,
+            "url_user": "https://t.me/rudra7404",
+            "ids_usernames": {},
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Telegram",
+                "url": "https://t.me/rudra7404",
+                "status": "Claimed",
+                "ids": {
+                    "fullname": "Rudra"
+                },
+                "tags": [
+                    "messaging"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 154
+        },
+        "Freelancer.com": {
+            "site": {
+                "tags": [
+                    "freelance",
+                    "us"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "\"users\":{}"
+                ],
+                "alexaRank": 661,
+                "urlMain": "https://www.freelancer.com/",
+                "url": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D={username}&compact=true",
+                "usernameClaimed": "adam",
+                "usernameUnclaimed": "noonewouldeverusethis"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.freelancer.com/",
+            "cookies": null,
+            "url_user": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=rudra7404&compact=true",
+            "ids_usernames": {
+                "Rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Freelancer.com",
+                "url": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=rudra7404&compact=true",
+                "status": "Claimed",
+                "ids": {
+                    "id": "71737901",
+                    "nickname": "Rudra7404",
+                    "username": "Rudra7404",
+                    "fullname": "Rudra P.",
+                    "role": "freelancer",
+                    "location": "Patan, India",
+                    "created_at": "2023-08-30 13:54:02 UTC"
+                },
+                "tags": [
+                    "freelance",
+                    "us"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 661
+        },
+        "SlideShare": {
+            "site": {
+                "tags": [
+                    "documents",
+                    "sharing"
+                ],
+                "checkType": "status_code",
+                "alexaRank": 158,
+                "urlMain": "https://slideshare.net/",
+                "url": "https://slideshare.net/{username}",
+                "usernameClaimed": "blue",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://slideshare.net/",
+            "cookies": null,
+            "url_user": "https://slideshare.net/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "SlideShare",
+                "url": "https://slideshare.net/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "documents",
+                    "sharing"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 158
+        },
+        "Roblox": {
+            "site": {
+                "tags": [
+                    "gaming",
+                    "us"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "Page cannot be found or no longer exists"
+                ],
+                "alexaRank": 115,
+                "urlMain": "https://www.roblox.com/",
+                "url": "https://www.roblox.com/user.aspx?username={username}",
+                "usernameClaimed": "bluewolfekiller",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.roblox.com/",
+            "cookies": null,
+            "url_user": "https://www.roblox.com/user.aspx?username=rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Roblox",
+                "url": "https://www.roblox.com/user.aspx?username=rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "gaming",
+                    "us"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 115
+        },
+        "My.Mail.ru@bk.ru": {
+            "site": {
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "/invite?mna=&mnb=",
+                    "mm-error-404__head"
+                ],
+                "alexaRank": 49,
+                "urlMain": "https://my.mail.ru/",
+                "url": "https://my.mail.ru/bk/{username}/",
+                "usernameClaimed": "tanyagorohova",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://my.mail.ru/",
+            "cookies": null,
+            "url_user": "https://my.mail.ru/bk/rudra7404/",
+            "ids_usernames": {
+                "rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "My.Mail.ru@bk.ru",
+                "url": "https://my.mail.ru/bk/rudra7404/",
+                "status": "Claimed",
+                "ids": {
+                    "username": "rudra7404",
+                    "email": "rudra7404@bk.ru",
+                    "is_vip": "False",
+                    "is_community": "False",
+                    "is_video_channel": "False",
+                    "image": "https://filin.mail.ru/pic?email=rudra7404@bk.ru",
+                    "email_username": "rudra7404"
+                },
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 49
+        },
+        "My.Mail.ru@ya.ru": {
+            "site": {
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "/invite?mna=&mnb=",
+                    "mm-error-404__head"
+                ],
+                "alexaRank": 49,
+                "urlMain": "https://my.mail.ru/",
+                "url": "https://my.mail.ru/ya.ru/{username}/",
+                "usernameClaimed": "hovsepovich",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://my.mail.ru/",
+            "cookies": null,
+            "url_user": "https://my.mail.ru/ya.ru/rudra7404/",
+            "ids_usernames": {
+                "rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "My.Mail.ru@ya.ru",
+                "url": "https://my.mail.ru/ya.ru/rudra7404/",
+                "status": "Claimed",
+                "ids": {
+                    "username": "rudra7404",
+                    "email": "rudra7404@ya.ru",
+                    "is_vip": "False",
+                    "is_community": "False",
+                    "is_video_channel": "False",
+                    "image": "https://filin.mail.ru/pic?email=rudra7404@ya.ru",
+                    "email_username": "rudra7404"
+                },
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 49
+        },
+        "Strava": {
+            "site": {
+                "tags": [
+                    "us"
+                ],
+                "regexCheck": "^[^\\.]+$",
+                "checkType": "message",
+                "absenceStrs": [
+                    "<title>Strava | "
+                ],
+                "presenseStrs": [
+                    "Strava</title>"
+                ],
+                "alexaRank": 1099,
+                "urlMain": "https://www.strava.com/",
+                "url": "https://www.strava.com/athletes/{username}",
+                "usernameClaimed": "adam",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.strava.com/",
+            "cookies": null,
+            "url_user": "https://www.strava.com/athletes/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Strava",
+                "url": "https://www.strava.com/athletes/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "us"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 1099
+        },
+        "Eksisozluk": {
+            "site": {
+                "tags": [
+                    "tr"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "isimli bir yazar kayd\u0131 mevcut de\u011fil",
+                    "olmaz \u00f6yle \u015fey"
+                ],
+                "alexaRank": 977,
+                "urlMain": "https://eksisozluk.com/biri/",
+                "url": "https://eksisozluk.com/biri/{username}",
+                "usernameClaimed": "adam",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://eksisozluk.com/biri/",
+            "cookies": null,
+            "url_user": "https://eksisozluk.com/biri/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Eksisozluk",
+                "url": "https://eksisozluk.com/biri/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "tr"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 977
+        },
+        "My.Mail.ru@list.ru": {
+            "site": {
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "/invite?mna=&mnb=",
+                    "mm-error-404__head"
+                ],
+                "alexaRank": 49,
+                "urlMain": "https://my.mail.ru/",
+                "url": "https://my.mail.ru/list/{username}/",
+                "usernameClaimed": "nickname",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://my.mail.ru/",
+            "cookies": null,
+            "url_user": "https://my.mail.ru/list/rudra7404/",
+            "ids_usernames": {
+                "rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "My.Mail.ru@list.ru",
+                "url": "https://my.mail.ru/list/rudra7404/",
+                "status": "Claimed",
+                "ids": {
+                    "username": "rudra7404",
+                    "email": "rudra7404@list.ru",
+                    "is_vip": "False",
+                    "is_community": "False",
+                    "is_video_channel": "False",
+                    "image": "https://filin.mail.ru/pic?email=rudra7404@list.ru",
+                    "email_username": "rudra7404"
+                },
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 49
+        },
+        "My.Mail.ru@mail.ru": {
+            "site": {
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "/invite?mna=&mnb=",
+                    "mm-error-404__head"
+                ],
+                "alexaRank": 49,
+                "urlMain": "https://my.mail.ru/",
+                "url": "https://my.mail.ru/mail/{username}/",
+                "usernameClaimed": "nickname",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://my.mail.ru/",
+            "cookies": null,
+            "url_user": "https://my.mail.ru/mail/rudra7404/",
+            "ids_usernames": {
+                "rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "My.Mail.ru@mail.ru",
+                "url": "https://my.mail.ru/mail/rudra7404/",
+                "status": "Claimed",
+                "ids": {
+                    "username": "rudra7404",
+                    "email": "rudra7404@mail.ru",
+                    "is_vip": "False",
+                    "is_community": "False",
+                    "is_video_channel": "False",
+                    "image": "https://filin.mail.ru/pic?email=rudra7404@mail.ru",
+                    "email_username": "rudra7404"
+                },
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 49
+        },
+        "My.Mail.ru@gmail.com": {
+            "site": {
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "/invite?mna=&mnb=",
+                    "mm-error-404__head"
+                ],
+                "alexaRank": 49,
+                "urlMain": "https://my.mail.ru/",
+                "url": "https://my.mail.ru/gmail.com/{username}/",
+                "usernameClaimed": "chelsea121232",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://my.mail.ru/",
+            "cookies": null,
+            "url_user": "https://my.mail.ru/gmail.com/rudra7404/",
+            "ids_usernames": {
+                "rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "My.Mail.ru@gmail.com",
+                "url": "https://my.mail.ru/gmail.com/rudra7404/",
+                "status": "Claimed",
+                "ids": {
+                    "username": "rudra7404",
+                    "email": "rudra7404@gmail.com",
+                    "is_vip": "False",
+                    "is_community": "False",
+                    "is_video_channel": "False",
+                    "image": "https://filin.mail.ru/pic?email=rudra7404@gmail.com",
+                    "email_username": "rudra7404"
+                },
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 49
+        },
+        "My.Mail.ru@yandex.ru": {
+            "site": {
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "/invite?mna=&mnb=",
+                    "mm-error-404__head"
+                ],
+                "alexaRank": 49,
+                "urlMain": "https://my.mail.ru/",
+                "url": "https://my.mail.ru/yandex.ru/{username}/",
+                "usernameClaimed": "proftek2015",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://my.mail.ru/",
+            "cookies": null,
+            "url_user": "https://my.mail.ru/yandex.ru/rudra7404/",
+            "ids_usernames": {
+                "rudra7404": "username"
+            },
+            "ids_links": [],
+            "status": {
+                "username": "rudra7404",
+                "site_name": "My.Mail.ru@yandex.ru",
+                "url": "https://my.mail.ru/yandex.ru/rudra7404/",
+                "status": "Claimed",
+                "ids": {
+                    "username": "rudra7404",
+                    "email": "rudra7404@yandex.ru",
+                    "is_vip": "False",
+                    "is_community": "False",
+                    "is_video_channel": "False",
+                    "image": "https://filin.mail.ru/pic?email=rudra7404@yandex.ru",
+                    "email_username": "rudra7404"
+                },
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 49
+        },
+        "Lichess": {
+            "site": {
+                "checkType": "message",
+                "absenceStrs": [
+                    "Page not found!"
+                ],
+                "alexaRank": 2374,
+                "urlMain": "https://lichess.org",
+                "url": "https://lichess.org/@/{username}",
+                "usernameClaimed": "blue",
+                "usernameUnclaimed": "noonewouldeverusethis7",
+                "tags": [
+                    "gaming",
+                    "hobby"
+                ]
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://lichess.org",
+            "cookies": null,
+            "url_user": "https://lichess.org/@/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Lichess",
+                "url": "https://lichess.org/@/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "gaming",
+                    "hobby"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 2374
+        },
+        "Kaggle": {
+            "site": {
+                "tags": [
+                    "tech"
+                ],
+                "checkType": "status_code",
+                "alexaRank": 1947,
+                "urlMain": "https://www.kaggle.com/",
+                "url": "https://www.kaggle.com/{username}",
+                "usernameClaimed": "dansbecker",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.kaggle.com/",
+            "cookies": null,
+            "url_user": "https://www.kaggle.com/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Kaggle",
+                "url": "https://www.kaggle.com/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "tech"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 1947
+        },
+        "Cbr": {
+            "site": {
+                "tags": [
+                    "forum",
+                    "us"
+                ],
+                "engine": "vBulletin",
+                "alexaRank": 2689,
+                "urlMain": "https://community.cbr.com",
+                "usernameClaimed": "red",
+                "usernameUnclaimed": "noonewouldeverusethis7",
+                "absenceStrs": [
+                    "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.",
+                    "Bu \u00dcye kay\u0131tl\u0131 \u00dcyemiz de\u011fildir. Bu sebebten dolay\u0131 \u00dcyeye ait Profil g\u00f6sterilemiyor.",
+                    "This user has not registered and therefore does not have a profile to view.",
+                    "\u041a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447 \u043d\u0435 \u0437\u0430\u0440\u0435\u0454\u0441\u0442\u0440\u043e\u0432\u0430\u043d\u0438\u0439 \u0456 \u043d\u0435 \u043c\u0430\u0454 \u043f\u0440\u043e\u0444\u0456\u043b\u044e, \u044f\u043a\u0438\u0439 \u043c\u043e\u0436\u043d\u0430 \u043f\u0435\u0440\u0435\u0433\u043b\u044f\u043d\u0443\u0442\u0438.",
+                    "Deze gebruiker is niet geregistreerd, zodat je zijn of haar profiel niet kunt bekijken."
+                ],
+                "checkType": "message",
+                "url": "{urlMain}{urlSubpath}/member.php?username={username}"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://community.cbr.com",
+            "cookies": null,
+            "url_user": "https://community.cbr.com/member.php?username=rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Cbr",
+                "url": "https://community.cbr.com/member.php?username=rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "forum",
+                    "us"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 2689
+        },
+        "Picuki": {
+            "site": {
+                "tags": [
+                    "photo"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "<title>Error 500</title>",
+                    "<title>Error 404</title>",
+                    "Checking if the site connection is secure"
+                ],
+                "alexaRank": 2255,
+                "urlMain": "https://www.picuki.com/",
+                "url": "https://www.picuki.com/profile/{username}",
+                "source": "Instagram",
+                "usernameClaimed": "adam",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.picuki.com/",
+            "cookies": null,
+            "url_user": "https://www.picuki.com/profile/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Picuki [Instagram]",
+                "url": "https://www.picuki.com/profile/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "photo"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 2255
+        },
+        "aminoapp": {
+            "site": {
+                "tags": [
+                    "br",
+                    "us"
+                ],
+                "checkType": "status_code",
+                "alexaRank": 3178,
+                "urlMain": "https://aminoapps.com/",
+                "url": "https://aminoapps.com/u/{username}",
+                "usernameClaimed": "blue",
+                "usernameUnclaimed": "noonewouldeverusethis77777"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://aminoapps.com/",
+            "cookies": null,
+            "url_user": "https://aminoapps.com/u/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "aminoapp",
+                "url": "https://aminoapps.com/u/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "br",
+                    "us"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 3178
+        },
+        "BoardGameGeek": {
+            "site": {
+                "tags": [
+                    "gaming",
+                    "us"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "User does not exist."
+                ],
+                "alexaRank": 4327,
+                "urlMain": "https://www.boardgamegeek.com",
+                "url": "https://www.boardgamegeek.com/user/{username}",
+                "usernameClaimed": "adam",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.boardgamegeek.com",
+            "cookies": null,
+            "url_user": "https://www.boardgamegeek.com/user/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "BoardGameGeek",
+                "url": "https://www.boardgamegeek.com/user/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "gaming",
+                    "us"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 4327
+        },
+        "VC.ru": {
+            "site": {
+                "similarSearch": true,
+                "tags": [
+                    "ru"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "\u041c\u044b \u0432\u0441\u0435 \u0432\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u043b\u0438, \u043d\u043e \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0448\u043b\u0438 :("
+                ],
+                "alexaRank": 2408,
+                "urlMain": "https://vc.ru",
+                "url": "https://vc.ru/search/v2/subsite/relevant?query={username}",
+                "usernameClaimed": "adam",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://vc.ru",
+            "cookies": null,
+            "url_user": "https://vc.ru/search/v2/subsite/relevant?query=rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "VC.ru",
+                "url": "https://vc.ru/search/v2/subsite/relevant?query=rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "ru"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": true,
+            "rank": 2408
+        },
+        "ProductHunt": {
+            "site": {
+                "tags": [
+                    "tech",
+                    "us"
+                ],
+                "checkType": "message",
+                "presenseStrs": [
+                    "{\"username\""
+                ],
+                "absenceStrs": [
+                    "We seem to have lost this page"
+                ],
+                "alexaRank": 10638,
+                "urlMain": "https://www.producthunt.com/",
+                "url": "https://www.producthunt.com/@{username}",
+                "usernameClaimed": "red",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.producthunt.com/",
+            "cookies": null,
+            "url_user": "https://www.producthunt.com/@rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "ProductHunt",
+                "url": "https://www.producthunt.com/@rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "tech",
+                    "us"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 10638
+        },
+        "Pixwox": {
+            "site": {
+                "absenceStrs": [
+                    "Page not found</div>"
+                ],
+                "presenseStrs": [
+                    "username",
+                    "profile",
+                    " data-name=",
+                    "fullname",
+                    "alternate"
+                ],
+                "url": "https://www.pixwox.com/profile/{username}/",
+                "urlMain": "https://www.pixwox.com",
+                "usernameClaimed": "mami_ishioka",
+                "usernameUnclaimed": "noonewouldeverusethis7",
+                "checkType": "message",
+                "alexaRank": 12080,
+                "source": "Instagram",
+                "tags": [
+                    "photo"
+                ]
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "https://www.pixwox.com",
+            "cookies": null,
+            "url_user": "https://www.pixwox.com/profile/rudra7404/",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Pixwox [Instagram]",
+                "url": "https://www.pixwox.com/profile/rudra7404/",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "photo"
+                ]
+            },
+            "http_status": 200,
+            "is_similar": false,
+            "rank": 12080
+        },
+        "Folkd": {
+            "site": {
+                "tags": [
+                    "eu",
+                    "in"
+                ],
+                "checkType": "message",
+                "absenceStrs": [
+                    "<meta name=\"robots\" content=\"noindex\">",
+                    "Folkd | Home"
+                ],
+                "alexaRank": 14019,
+                "urlMain": "http://www.folkd.com/profile/",
+                "url": "http://www.folkd.com/profile/{username}",
+                "usernameClaimed": "staffingservice",
+                "usernameUnclaimed": "noonewouldeverusethis7"
+            },
+            "username": "rudra7404",
+            "parsing_enabled": true,
+            "url_main": "http://www.folkd.com/profile/",
+            "cookies": null,
+            "url_user": "http://www.folkd.com/profile/rudra7404",
+            "status": {
+                "username": "rudra7404",
+                "site_name": "Folkd",
+                "url": "http://www.folkd.com/profile/rudra7404",
+                "status": "Claimed",
+                "ids": {},
+                "tags": [
+                    "eu",
+                    "in"
+                ]
+            },
+            "http_status": 404,
+            "is_similar": false,
+            "rank": 14019
+        }
+    },
+    "rudra7404.csv": [
+        {
+            "username": "rudra7404",
+            "name": "AllMyLinks",
+            "url_main": "https://allmylinks.com/",
+            "url_user": "https://allmylinks.com/rudra7404",
+            "exists": "Claimed",
+            "http_status": "403",
+            "response_time_s": "0.16839866100008294"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Amino",
+            "url_main": "https://aminoapps.com",
+            "url_user": "https://aminoapps.com/u/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "1.1357595219997165"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Bikemap",
+            "url_main": "https://www.bikemap.net/",
+            "url_user": "https://www.bikemap.net/en/u/rudra7404/routes/created/",
+            "exists": "Claimed",
+            "http_status": "202",
+            "response_time_s": "1.722809316999701"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Discord",
+            "url_main": "https://discord.com/",
+            "url_user": "https://discord.com",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "3.957570766000117"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Fiverr",
+            "url_main": "https://www.fiverr.com/",
+            "url_user": "https://www.fiverr.com/rudra7404",
+            "exists": "Claimed",
+            "http_status": "403",
+            "response_time_s": "4.8066071940002075"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Freelancer",
+            "url_main": "https://www.freelancer.com/",
+            "url_user": "https://www.freelancer.com/u/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "5.159303107000142"
+        },
+        {
+            "username": "rudra7404",
+            "name": "GitHub",
+            "url_main": "https://www.github.com/",
+            "url_user": "https://www.github.com/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "5.65783755800021"
+        },
+        {
+            "username": "rudra7404",
+            "name": "HackTheBox",
+            "url_main": "https://forum.hackthebox.eu/",
+            "url_user": "https://forum.hackthebox.eu/profile/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "6.757181798000147"
+        },
+        {
+            "username": "rudra7404",
+            "name": "HackenProof (Hackers)",
+            "url_main": "https://hackenproof.com/",
+            "url_user": "https://hackenproof.com/hackers/rudra7404",
+            "exists": "Claimed",
+            "http_status": "403",
+            "response_time_s": "5.9350770800001555"
+        },
+        {
+            "username": "rudra7404",
+            "name": "HudsonRock",
+            "url_main": "https://hudsonrock.com",
+            "url_user": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "6.834344721999969"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Instagram",
+            "url_main": "https://instagram.com/",
+            "url_user": "https://instagram.com/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "8.38010014099973"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Kick",
+            "url_main": "https://kick.com/",
+            "url_user": "https://kick.com/rudra7404",
+            "exists": "Claimed",
+            "http_status": "403",
+            "response_time_s": "7.641810476000046"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Lichess",
+            "url_main": "https://lichess.org",
+            "url_user": "https://lichess.org/@/rudra7404",
+            "exists": "Claimed",
+            "http_status": "404",
+            "response_time_s": "8.7429374620001"
+        },
+        {
+            "username": "rudra7404",
+            "name": "ProductHunt",
+            "url_main": "https://www.producthunt.com/",
+            "url_user": "https://www.producthunt.com/@rudra7404",
+            "exists": "Claimed",
+            "http_status": "404",
+            "response_time_s": "11.324180765000165"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Roblox",
+            "url_main": "https://www.roblox.com/",
+            "url_user": "https://www.roblox.com/user.aspx?username=rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "12.88645578600017"
+        },
+        {
+            "username": "rudra7404",
+            "name": "SlideShare",
+            "url_main": "https://slideshare.net/",
+            "url_user": "https://slideshare.net/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "13.540319073999854"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Snapchat",
+            "url_main": "https://www.snapchat.com",
+            "url_user": "https://www.snapchat.com/add/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "13.642626661000122"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Strava",
+            "url_main": "https://www.strava.com/",
+            "url_user": "https://www.strava.com/athletes/rudra7404",
+            "exists": "Claimed",
+            "http_status": "404",
+            "response_time_s": "15.125603882000178"
+        },
+        {
+            "username": "rudra7404",
+            "name": "TLDR Legal",
+            "url_main": "https://tldrlegal.com/",
+            "url_user": "https://tldrlegal.com/users/rudra7404/",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "17.12728852700002"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Telegram",
+            "url_main": "https://t.me/",
+            "url_user": "https://t.me/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "15.124908413999947"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Twitch",
+            "url_main": "https://www.twitch.tv/",
+            "url_user": "https://www.twitch.tv/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "15.377176535999752"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Twitter",
+            "url_main": "https://x.com/",
+            "url_user": "https://x.com/rudra7404",
+            "exists": "Claimed",
+            "http_status": "429",
+            "response_time_s": "15.957199684999978"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Vero",
+            "url_main": "https://vero.co/",
+            "url_user": "https://vero.co/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "16.233792481000364"
+        },
+        {
+            "username": "rudra7404",
+            "name": "Xbox Gamertag",
+            "url_main": "https://xboxgamertag.com/",
+            "url_user": "https://xboxgamertag.com/search/rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "17.014701506000165"
+        },
+        {
+            "username": "rudra7404",
+            "name": "YouTube",
+            "url_main": "https://www.youtube.com/",
+            "url_user": "https://www.youtube.com/@rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "17.329861450999942"
+        },
+        {
+            "username": "rudra7404",
+            "name": "babyRU",
+            "url_main": "https://www.baby.ru/",
+            "url_user": "https://www.baby.ru/u/rudra7404/",
+            "exists": "Claimed",
+            "http_status": "503",
+            "response_time_s": "18.192160985999635"
+        },
+        {
+            "username": "rudra7404",
+            "name": "mastodon.cloud",
+            "url_main": "https://mastodon.cloud/",
+            "url_user": "https://mastodon.cloud/@rudra7404",
+            "exists": "Claimed",
+            "http_status": "200",
+            "response_time_s": "19.596329721000075"
+        }
+    ],
+    "socialscan_rudra7404.json": {
+        "rudra7404": [
+            {
+                "platform": "Reddit",
+                "query": "rudra7404",
+                "available": "True",
+                "valid": "True",
+                "success": "True",
+                "message": "Available"
+            },
+            {
+                "platform": "GitLab",
+                "query": "rudra7404",
+                "available": "True",
+                "valid": "True",
+                "success": "True",
+                "message": "Available"
+            },
+            {
+                "platform": "GitHub",
+                "query": "rudra7404",
+                "available": "False",
+                "valid": "False",
+                "success": "False",
+                "message": "QueryError - Could not retrieve token. You might be sending too many requests. Use a proxy or wait before trying again."
+            },
+            {
+                "platform": "Twitter",
+                "query": "rudra7404",
+                "available": "True",
+                "valid": "True",
+                "success": "True",
+                "message": "Available!"
+            },
+            {
+                "platform": "Instagram",
+                "query": "rudra7404",
+                "available": "False",
+                "valid": "True",
+                "success": "True",
+                "message": "This username isn't available. Please try another.",
+                "link": "https://www.instagram.com/rudra7404"
+            },
+            {
+                "platform": "Tumblr",
+                "query": "rudra7404",
+                "available": "True",
+                "valid": "True",
+                "success": "True",
+                "message": "Available"
+            }
+        ]
+    }
+}

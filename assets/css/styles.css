@@ -1,0 +1,152 @@
+body {
+    background-image: url(/assets/img/background.png);
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+/* Header styles */
+header {
+   
+    background-color: #6938ef;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Apply the blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 50px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li {
+    margin: 0 15px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Hamburger menu for mobile */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    background-color: white;
+    height: 3px;
+    margin: 3px 0;
+    width: 25px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border-radius: 4px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links ul li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+
+.downb{
+    background-color: #6938ef;
+    text-align: center;
+    font-size: 18px;
+    border-width: 1px;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.downb a {
+    color: white;
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 18px;
+    border-width: 1px;
+    padding: 10px;
+    width: 200px;
+
+}
+.donc{
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.btn-secondary1 {
+    color: #fff;
+    background-color: none;
+    border-color: #6c757d;
+}
+
+.btn-secondary1.active {
+    border: 2px solid #6938ef; /* Highlighted border */
+    background-color: #6938ef !important; /* Optional: Change background */
+    color: white; /* Text color */
+}
+
+.table{
+    background-color: white;
+}
+
+.btn-primary1 {
+    color: #fff;
+    background-color: #6938ef;
+    border-color: #6938ef;
+}

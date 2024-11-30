@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeakScan - Data Breach Checker</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <style>
+        .rounded-buttons .btn {
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Header -->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="index.html" class="text-dark font-weight-bold"><img src="assets/img/logo mm.png" style="height: 100%;"></a>
+            </div>
+            <nav class="nav-links d-none d-md-block">
+                <ul class="list-unstyled d-flex mb-0">
+                    <li class="mr-3"><a href="index.html" style="font-size: 18px;">Home</a></li>
+                    <li class="mr-3"><a href="#features"  style="font-size: 18px;">Features</a></li>
+                    <li class="mr-3"><a href="#about"  style="font-size: 18px;">About</a></li>
+                    <li><a href="#contact" style="font-size: 18px;">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu d-md-none" id="hamburger-menu" role="button" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="search-section py-5">
+        <div class="container text-center" style="padding-top: 6rem;">
+            <h1 style="color: white;">LeakScan</h1>
+            <p class="mb-4" style="padding-bottom: 3rem; color: white;">Check if your data has been exposed in data breaches</p>
+            <div class="search-box">
+                <div class="btn-group mb-3 rounded-buttons" role="group" aria-label="Search Type">
+                    <button type="button" class="btn btn-secondary1 active" onclick="setSearchType('email')" style="color: white;">Email</button>
+                    <button type="button" class="btn btn-secondary1" onclick="setSearchType('username')" style="color: white;">Username</button>
+                    <button type="button" class="btn btn-secondary1" onclick="setSearchType('mobile')" style="color: white;">Mobile Number</button>
+                </div>
+                
+    
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <input type="email" id="emailInput" class="form-control form-control-lg mb-3" placeholder="Enter your email address" style="max-width: 650px; border-radius: 50px;" required>
+                    <button id="searchButton" class="btn btn-primary1 btn-lg" style="border-radius: 50px;">Check Now</button>
+                </div>
+            </div>
+            <p class="mt-3 text-muted">We never store your data. <a href="#">Learn more</a></p>
+        </div>
+    </section>
+
+    <script>
+        // Set the search type
+        let searchType = 'email';
+    
+        function setSearchType(type) {
+            searchType = type;
+            // Update the placeholder for the input field
+            const emailInput = document.getElementById('emailInput');
+            if (type === 'email') {
+                emailInput.placeholder = 'Enter your email address';
+            } else if (type === 'username') {
+                emailInput.placeholder = 'Enter your username';
+            } else if (type === 'mobile') {
+                emailInput.placeholder = 'Enter your mobile number';
+            }
+        }
+    
+        // Handle the search request
+        const searchButton = document.getElementById('searchButton');
+        searchButton.addEventListener('click', function () {
+            const emailInput = document.getElementById('emailInput');
+            const queryInput = emailInput.value.trim();
+    
+            if (queryInput === "") {
+                alert("Please enter a valid input.");
+                return;
+            }
+    
+            // Determine the target page and query parameter based on search type
+            let targetPage = '';
+            let queryParam = '';
+    
+            if (searchType === 'email') {
+                targetPage = 'result.html';
+                queryParam = `entity=${encodeURIComponent(queryInput)}`;
+            } else if (searchType === 'username') {
+                targetPage = 'user-results.html';
+                queryParam = `entity=${encodeURIComponent(queryInput)}`;
+            } else if (searchType === 'mobile') {
+                targetPage = 'phone-results.html';
+                queryParam = `entity=${encodeURIComponent(queryInput)}`;
+            }
+    
+            // Redirect to the corresponding results page
+            window.location.href = `${targetPage}?${queryParam}`;
+        });
+    
+        // Update active class on button click
+        document.querySelectorAll('.btn-secondary1').forEach(button => {
+            button.addEventListener('click', function () {
+                // Remove 'active' class from all buttons
+                document.querySelectorAll('.btn-secondary1').forEach(btn => btn.classList.remove('active'));
+                // Add 'active' class to the clicked button
+                this.classList.add('active');
+            });
+        });
+    </script>
+    
+    <script>
+        document.querySelectorAll('.btn-secondary1').forEach(button => {
+    button.addEventListener('click', function () {
+        // Remove 'active' class from all buttons
+        document.querySelectorAll('.btn-secondary1').forEach(btn => btn.classList.remove('active'));
+        // Add 'active' class to the clicked button
+        this.classList.add('active');
+    });
+});
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
